@@ -20,10 +20,10 @@ body {
 
 .jumbotron {
   position: relative;
-  height: 700px;
+  height: 500px;
   background-image: url("../img/background1.jpg");
   background-size: cover;
-  background-position: center -200px;
+
   background-repeat: no-repeat;
   z-index: -1;
 }
@@ -166,7 +166,8 @@ footer .tes {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
   }
   .jumbotron {
-    height: 500px;
+    background-position: center -200px;
+    height: 650px;
     margin-top: -56px;
     z-index: -1;
   }
