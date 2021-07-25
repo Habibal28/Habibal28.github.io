@@ -172,6 +172,10 @@ footer .tes {
     z-index: -1;
   }
 
+  .jumbotron .container .display-4 {
+    padding-top: 300px;
+  }
+
   .motivation h3 {
     font-weight: 300;
     font-size: 24px;
