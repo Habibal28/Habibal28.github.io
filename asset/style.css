@@ -1,0 +1,206 @@
+/** @format */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-link,
+.navbar-brand {
+  text-transform: uppercase;
+  color: white !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron {
+  position: relative;
+  height: 700px;
+  background-image: url("../img/background1.jpg");
+  background-size: cover;
+  background-position: center -200px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.jumbotron ::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(224, 183, 181, 0.2);
+  z-index: 0;
+}
+.jumbotron .container .display-4 {
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  font-family: "Rokkitt", serif;
+  font-size: 59px;
+}
+
+.container .tombol {
+  position: relative;
+  width: 220px;
+  height: 55px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  background-color: violet;
+  margin-top: -27.5px;
+  margin-bottom: 120px;
+  text-transform: uppercase;
+}
+
+.tombol a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-family: "Rokkitt", serif;
+  font-weight: 200;
+}
+
+.product h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  font-family: "Rokkitt", serif;
+  color: violet;
+  margin-bottom: 24px;
+}
+.product p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+  color: #acacac;
+}
+
+.service {
+  text-align: center;
+}
+.service h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.service h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+.service h1,
+.service h3 {
+  color: violet;
+}
+
+.service p {
+  color: #acacac;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.motivation {
+  margin-bottom: 120px;
+}
+.motivation h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: violet;
+}
+
+.motivation h3 span {
+  font-weight: bold;
+}
+
+.motivation .figure {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.motivation img {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: violet;
+  height: 50px;
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  z-index: 0;
+}
+
+footer .logo {
+  display: none;
+}
+footer .tes {
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+/* responsive */
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 500px;
+    margin-top: -56px;
+    z-index: -1;
+  }
+
+  .motivation h3 {
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  /* ------------------- */
+
+  footer {
+    background-color: violet;
+    height: 250px;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    z-index: 0;
+  }
+
+  footer .logo {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    width: 90px;
+    height: 100px;
+    color: violet;
+    top: -35px;
+    z-index: 1;
+  }
+
+  footer .logo::after {
+    top: 10;
+    left: -10px;
+    position: absolute;
+    content: "";
+    width: 110px;
+    height: 110px;
+    border: 10px solid rgba(238, 130, 238, 0.7);
+    z-index: -1;
+  }
+
+  footer .tes {
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    align-content: flex-end;
+    justify-content: space-between;
+  }
+}
