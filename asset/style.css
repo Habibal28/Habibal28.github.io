@@ -81,6 +81,8 @@ body {
   font-weight: 200;
   font-size: 18px;
   color: #acacac;
+  width: 300px;
+  margin: auto;
 }
 
 .service {
@@ -104,6 +106,27 @@ body {
   color: #acacac;
   font-weight: 300;
   font-size: 18px;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+.mentor {
+  border: 1px red solid;
+  margin-bottom: 120px;
+}
+
+.mentor .box {
+  border: 1px red solid;
+  width: 700px;
+  height: 300px;
+  /* margin-bottom: 50px; */
+}
+
+.mentor img {
+  width: 300px;
+  height: 300px;
 }
 
 .motivation {
@@ -175,10 +198,17 @@ footer .tes {
   .jumbotron .container .display-4 {
     padding-top: 300px;
   }
-
+  .product p {
+    width: auto;
+  }
+  .service p {
+    width: 250px;
+    text-align: start;
+    margin: auto;
+  }
   .motivation h3 {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   /* ------------------- */
